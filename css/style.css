@@ -266,10 +266,42 @@ header {
 }
 
 .all-services {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-image: url(../img/bgr-all-services.png);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
+}
+
+.all-services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.all-services-header h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.all-services-header button {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    padding: 15px 36px;
+    background-color: #4985ff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in;
+}
+
+.all-services-header button:hover {
+    border-radius: 15px;
 }
