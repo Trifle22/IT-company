@@ -356,3 +356,60 @@ header {
     font-size: 16px;
     line-height: 20px;
 }
+
+.our-projects-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.our-projects-main h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 50px;
+}
+
+.our-projects-main p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.our-projects-imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.our-projects-imgs img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.our-projects-imgs img:last-child {
+    margin-right: 0;
+}
+
+.our-projects-main button {
+    padding: 15px 36px;
+    color: white;
+    background-color: #4985ff;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in;
+    border-radius: 30px;
+}
+
+.our-projects-main button:hover {
+    border-radius: 15px;
+}
